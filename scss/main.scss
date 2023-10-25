@@ -1,0 +1,23 @@
+// Base
+@import './base/reset';  // Файл для сброса стилей
+@import './base/vars';// Файл с переменными 
+@import './base/mixins';  //   Важен порядок подключения
+@import './base/base';  // Файл с основными стилями
+
+
+// blocks
+
+@import "./blocks/header";
+@import "./blocks/nav";
+@import "./blocks/nav-button";
+@import "./blocks/info";
+@import "./blocks/benefits";
+@import "./blocks/appartments";
+@import "./blocks/card";
+@import "./blocks/cta";
+@import "./blocks/form";
+@import "./blocks/video";
+@import "./blocks/section-map";
+@import "./blocks/feedback";
+@import "./blocks/footer";
+
